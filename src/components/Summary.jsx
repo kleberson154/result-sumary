@@ -1,4 +1,7 @@
 import imgReaction from '../../public/images/icon-reaction.svg'
+import imgMemory from '../../public/images/icon-memory.svg'
+import imgVerbal from '../../public/images/icon-verbal.svg'
+import imgVisual from '../../public/images/icon-visual.svg'
 
 function Summary() {
   return (
@@ -18,11 +21,11 @@ function Summary() {
             </p>
           </div>
         </div>
-        {/* yellow */}
+        {/* orange */}
         <div className="flex flex-col flex-auto">
           <div className="flex bg-orange-200 rounded-lg p-3 justify-between font-bold">
             <div className="flex gap-3 ">
-              <img src="../../public/images/icon-memory.svg" alt="Reaction" />
+              <img src={imgMemory} alt="Reaction" />
               <p className="text-orange-100 ">Memory</p>
             </div>
 
@@ -35,7 +38,7 @@ function Summary() {
         <div className="flex flex-col flex-auto">
           <div className="flex bg-green-200 rounded-lg p-3 justify-between font-bold">
             <div className="flex gap-3 ">
-              <img src="../../public/images/icon-verbal.svg" alt="Reaction" />
+              <img src={imgVerbal} alt="Reaction" />
               <p className="text-green-100 ">Verbal</p>
             </div>
 
@@ -48,7 +51,7 @@ function Summary() {
         <div className="flex flex-col flex-auto">
           <div className="flex bg-blue-200 rounded-lg p-3 justify-between font-bold">
             <div className="flex gap-3 ">
-              <img src="../../public/images/icon-visual.svg" alt="Reaction" />
+              <img src={imgVisual} alt="Reaction" />
               <p className="text-blue-100 ">Visual</p>
             </div>
 
