@@ -1,3 +1,5 @@
+import imgReaction from '../../public/images/icon-reaction.svg'
+
 function Summary() {
   return (
     <div className="shrink-0 p-10 w-96">
@@ -7,7 +9,7 @@ function Summary() {
         <div className="flex flex-col flex-auto">
           <div className="flex bg-red-200 rounded-lg p-3 justify-between font-bold">
             <div className="flex gap-3 ">
-              <img src="../../public/images/icon-reaction.svg" alt="Reaction" />
+              <img src={imgReaction} alt="Reaction" />
               <p className="text-red-100 ">Reaction</p>
             </div>
 
