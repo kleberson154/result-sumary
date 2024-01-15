@@ -1,8 +1,5 @@
-# React + Vite
+# Result Summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto feito React, Vite e Tailwind. Feito com customizacao de cores e responsividade do tailwind, com alto desempenho feito em Vite, e componentizacao do React
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-01-15 165025](https://github.com/kleberson154/result-sumary/assets/79817657/310c993f-f53d-48da-9ccb-5d14a5caeb24)
